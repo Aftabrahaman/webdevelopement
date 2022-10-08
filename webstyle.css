@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 2mm;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bar {
+    text-align: right;
+    color:black;
+
+}
+header{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .image a{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20p;
+    width: 20px;
+
+  }
+  li .bar-link a:hover{
+    text-decoration: underline;
+  }
+
+  #Sign-in:hover{
+    box-shadow: 1px 1px 5px #999;
+
+  }
+  #Sign-in{
+    color:#fff;
+  }
+  #bar #Sign-in{
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+  }
+  #Sign-in:hover{
+    color: black;
+    border: 2px solid black;
+  }
+  #bar li{
+    display: inline-block;
+    padding: 10px;
+  }
+  .bar-link:hover{
+    color:red;
+  }
+
+  #google-logo{
+    width: 250px;
+    position: absolute;
+    top: 13%;
+    right: 41%;
+  }
+
+  #form{
+    width:40%;
+    position: absolute;
+    right: 30%;
+    border-radius: 50px;
+    display: flex;
+    flex: 100%;
+    height:40px;
+    border:1px solid lightgrey;
+  }
+  #search_bar{
+      width:80%;
+  }
+ #search{
+  width: 30px;
+  height: auto;
+  color: white;
+  padding-left: 5px;
+  padding-top: 5px;
+ }
+ #mic{
+  width: 20px;
+  height: auto;
+  padding-left: 40px;
+  padding-top: 5px;
+ }
+ input{
+  height:100%;
+  width:100%;
+  border: none;
+  padding:0px;
+}
+
+
+
+  #fotter_right{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+  }
+  #fotter_left{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  }
+  
+
+  .search-bar{
+    background-color: transparent;
+    border: aqua;
+    color: rgba(0,0,0, 88);
+    word-wrap:none;
+    font-size: 16px;
+    height: 34px;
+    size: 527px;
+    outline-width: medium;
+    outline-color: currentColor;
+    outline-style: none;
+    box-sizing: content-box;
+    float: none;
+    line-height: normal;
+    z-index: auto;
+    position:static;
+    padding: 10px;
+  }
+
+  #language{
+    position: absolute;
+    top:60%;
+    right: 30%;
+  }
+  .buttons{
+    width:"300"; 
+    color:white; 
+    background:#1f2021; 
+    block-size: 35px; 
+    width:130px ;
+    border-radius:5px; 
+    border:0px; 
+    font-size: 14px;
+  }
+  #search_button{
+    position: absolute;
+    top: 42%;
+    right: 40%;
+    padding: 5px 12px;
+  }
+  .buttons:hover{
+    color: #1f2021;
+    background-color: green;
+  }
+
+  #fotter_left{
+    padding-bottom: 20px;
+  }
+  #fotter_right{
+    padding-bottom: 20px;
+  }
+
+  
